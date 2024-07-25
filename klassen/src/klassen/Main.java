@@ -32,7 +32,7 @@ public static void main(String[] args) {
 	Calculator calculator = new Calculator(0.0 , 0.0 , "");
 	Scanner scanner = new Scanner(System.in);
 	
-	wile(true) {
+	while(true) {
 	
 	System.out.println("Rechenart eingeben (+ | - | * | / ):");
 	operator = scanner.nextLine();
