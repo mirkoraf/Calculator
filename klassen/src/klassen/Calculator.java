@@ -6,10 +6,10 @@ public class Calculator {
 	Double secondNumber;
 	String operator;
 	
-	public Calculator(Double firstNumber, Double secondNumber, String operator) {
+	public Calculator(Double firstNumber, Double secondNumber) {
 		this.firstNumber = firstNumber;
 		this.secondNumber = secondNumber;
-		this.operator = operator;
+		
 		
 		
 	}
